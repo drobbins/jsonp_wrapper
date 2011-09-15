@@ -18,7 +18,7 @@ node server.js
 Include script tags like this:
 
 ```
-<script type="text/javascript" src="http://localhost:1337/jsonpwrapper?query_objects></script>
+<script type="text/javascript" src="http://localhost:1337/jsonpwrapper?query_objects"></script>
 ```
 
 Where query objects can be:
