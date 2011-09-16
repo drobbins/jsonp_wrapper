@@ -1,6 +1,7 @@
 {
   "name": "jsonp_wrapper",
   "version": "1.0.0",
+  "node-version" : "0.4.11",
   "scripts": {
     "start": "node server.js"
   },
