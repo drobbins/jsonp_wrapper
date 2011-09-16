@@ -22,6 +22,7 @@ Include script tags like this:
 ```
 
 Where query objects can be:
+
 * ``callback`` The function that will be called with the results
 * ``url`` The url of the web service you wish to query
 * ``type`` Allows you to set the Accept: header for the query
