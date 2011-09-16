@@ -1,0 +1,10 @@
+{
+  "name": "jsonp_wrapper",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "request":"2.1.1"
+  }
+}
