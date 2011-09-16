@@ -19,7 +19,7 @@ http.createServer(function (req, res) {
       function(error, response, body){
         res.writeHead(200, {'Content-Type': 'text/javascript'});
         if(body.match(/^\{.*\}$/)){ // Don't wrap data that is already JSON
-          res.end("(function(){"+query.callback+"({contents:"+body+"});)()");
+          res.end(query.callback+"({contents:"+body+"});");
         }
         else{
           res.end("(function(){"+query.callback+"({contents:'"+body+"'});)()");
