@@ -22,7 +22,7 @@ http.createServer(function (req, res) {
           res.end("(function(){"+query.callback+"({contents:"+body+"});)");
         }
         else{
-          res.end("(function(){"+query.callback+"({contents:'"+body+"'});)");
+          res.end("(function(){"+query.callback+"({contents:'"+body+"'});)()");
         }
     });
   }
